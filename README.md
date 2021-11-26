@@ -1,29 +1,21 @@
 # xhua-study
 
-## Project setup
-```
-yarn install
-```
+## 简介
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+这是基于vue3的项目基本架构，简单的进行了初始化及配置，包括路由，网络请求，环境变量等；需要注意的是，有些地方需要配置，例如环境变量
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 运行及构建
 
-### Run your unit tests
-```
-yarn test:unit
-```
+依赖安装 npm install
 
-### Lints and fixes files
-```
-yarn lint
-```
+启动开发 npm run serve
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+启动构建(production) npm run build:prod
+
+启动构建(development) npm run build:dev
+
+启动构建(qa test) npm run build:qa
+
+单元测试 npm run test:unit
+
+质量检查 npm run lint
