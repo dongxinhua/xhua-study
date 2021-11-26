@@ -37,7 +37,6 @@ const decrement = (val) => {
 <style lang="less" scoped>
   .count {
     color: #1980ff;
-    
     input {
       margin-bottom: 22px;
     }

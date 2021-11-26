@@ -18,9 +18,7 @@ service.interceptors.request.use(
     }
     return axiosConfig;
   },
-  (error) => {
-    return Promise.reject(error);
-  },
+  (error) => Promise.reject(error),
 );
 
 // 请求拦截
@@ -29,9 +27,7 @@ service.interceptors.response.use(
     const res = response.data;
     return res;
   },
-  (error) => {
-    return Promise.reject(error);
-  },
+  (error) => Promise.reject(error),
 );
 
 /* axios.defaults.baseURL = process.env.VUE_APP_API_BASE_URL;
